@@ -1,0 +1,787 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- fontawesomeicon add -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/fontawesome.min.css" integrity="sha512-RvQxwf+3zJuNwl4e0sZjQeX7kUa3o82bDETpgVCH2RiwYSZVDdFJ7N/woNigN/ldyOOoKw8584jM4plQdt8bhA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/regular.min.css" integrity="sha512-aNH2ILn88yXgp/1dcFPt2/EkSNc03f9HBFX0rqX3Kw37+vjipi1pK3L9W08TZLhMg4Slk810sPLdJlNIjwygFw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/solid.min.css" integrity="sha512-uj2QCZdpo8PSbRGL/g5mXek6HM/APd7k/B5Hx/rkVFPNOxAQMXD+t+bG4Zv8OAdUpydZTU3UHmyjjiHv2Ww0PA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- google font poppins added -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>preparation</title>
+  </head>
+  <style>
+    *{margin: 0;
+    padding: 0;}
+
+    #gallery >*{
+      padding: 0;
+      margin: 0;
+    }
+    section{
+      width: 90%;
+    }
+    img{
+      width:100%;
+      
+      max-width:100%;
+    }
+/* banner section styling */
+    .banner{
+      width: 87%;
+      height: 646px;
+      background: #161616;
+      border-radius: 30px;
+      margin: 0 auto;
+    }
+    .banner-inside{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+     
+     
+     
+     
+    }
+    .banner-inside >#text-div{
+      padding-left: 25px;
+     
+     
+     
+     
+    }
+    .banner-inside  >#text-div> h1{
+    
+      font-family: Poppins;
+      font-size: 70px;
+      font-weight: 700;
+      line-height: 80px;
+      color:#ffffff;
+     
+    }
+    .banner-inside p{
+     
+      font-family: Poppins;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 26px;
+      color:#ffffff;
+      margin-top: 3%;
+
+  
+     
+    }
+    
+    .banner-inside #btn{
+          width: 187px;
+          height: 56px;
+          left: 246px;
+          background: #DD0000;
+          border-radius: 5px;
+          font-weight: 400;
+          font-size: 20px;
+          line-height: 23px;
+          color:#ffffff;
+          border:none;
+          outline: none;
+          margin-top: 3%;
+              
+    }
+    .banner-inside #image-div{
+     max-width: 100%;
+    
+    }
+    #image-div img{
+     width: 100%;
+     max-width: 614px;
+    }
+    /* styling gallery section      */
+
+    #gallery {
+     width:100%;
+      margin: 0 auto;
+      height:700px;
+      margin-top: 130px;
+    }
+    .cards {
+      display: flex;
+      justify-content: center;
+    }
+    .card {
+      width: 310px;
+      max-width: 100%;
+      padding: 1px;
+
+      border-radius: 10px;
+    }
+
+    .card-left {
+      background:#161616;
+      padding: 10px;
+
+      border-radius: 10px;
+      height: 280px;
+    }
+    .card-left .left-flex{
+      width: 80%;
+      display: flex;
+     flex-direction: column;
+     padding-top: 10%;
+     
+      
+      
+      margin-top: 25px;
+      
+      margin: 0 auto;
+      gap:5px;
+    }
+    .card-left .left-flex .height{
+     height:64px;
+     border:none;
+     outline:none;
+     border-radius: 8px;
+    }
+    .card-left .left-flex #blog-style{
+     background:#dd0000;
+    }
+    
+    .right-card-width {
+      width: 1010px;
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .card-right {
+      max-width: 100%;
+    }
+    .card-right > #btn {
+      background: transparent;
+      margin-left: 40%;
+      border: none;
+      outline: none;
+    }
+    .inline-block {
+      display: inline-block;
+      margin: 10px;
+    }
+    .block {
+      color: green;
+      position: relative;
+      top: -8.5px;
+      left: 20px;
+      margin-right: 50px;
+    }
+    /* styling card border */
+    .border-img{
+      border:1px solid grey;
+      border-radius: 12px;
+    }
+
+    /* styling footer */
+   #footer{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+   }
+    .footer{
+      width:100%;
+      
+    }
+    .footer-inside{
+     
+     
+      max-width:100%;
+      height: 441px;
+      background: #161616;
+      
+    }
+   
+    .footer-inside{
+     
+     
+    display: flex;
+    justify-content: center;
+    align-items: center;
+      
+    }
+   
+
+    
+    .footer-inside p{
+      font-size:40px ;
+      color:#ffffff;
+     
+     
+      
+    }
+    .footer-inside #center{
+      width:80%;
+      height:300px;
+      
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+     
+    }
+    .footer-inside #center span{
+    color:darkgrey
+     
+    }
+    .footer-inside #center hr{
+     color:rgba(128, 128, 128, 0.176);
+   
+    
+    display: block;
+   width:150%;
+   margin-top: 5px;
+   margin-bottom: 5px;
+   position: relative;
+   left: -100px;
+   margin-top: 10%;
+   margin-bottom: 5%;
+    }
+    /* styling with media query */
+    /* styling for mobile responsiveness */
+    @media only screen and (min-width: 576px) and (max-width:600px)  {
+      .banner{
+        height: 472PX;
+        width: 334px;
+        margin-top: 15px;
+        padding-top: 20px;
+      }
+      .banner-inside{
+      display: flex;
+      flex-direction: column;
+        
+     
+     
+    }
+      .banner-inside #text-div,#image-div {
+     
+      max-width: 480px;
+       
+     
+     
+     
+     
+    }
+    
+    .banner-inside  >#text-div> h1{
+    
+    font-family: Poppins;
+    font-size: 22px;
+   
+    line-height: 22px;
+    margin-bottom: 10px;
+   
+  }
+  .banner-inside p{
+   
+    font-family: Poppins;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+
+text-align: center;
+
+    color:#ffffff;
+margin-bottom: 10px;
+
+   
+  }
+  
+  .banner-inside #btn{
+    width: 161px;
+    height: 40px;
+    background:#DD0000;
+line-height: 23px;
+font-weight: 400;
+font-size: 20px;
+line-height: 23px;
+text-align: center;
+color: #FFFFFF;
+
+   margin-bottom: 10px; 
+    
+    
+  }
+  .banner-inside #image-div{
+    width:380px;
+    margin-top: 10px;
+
+  }
+  #image-div img{
+    
+     max-width: 330px;
+     max-height: 272px;
+    }
+  /* stylyling gallery section */
+  #gallery{
+    margin: 0 auto;
+    margin-top: 20px;
+    position: relative;
+  }
+  #gallery >.gallery>button{
+    background:#dd0000;
+   }
+    .right-card-width {
+      width: 334px;
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .icon-img{
+      width: 20px;
+    }
+  .cards {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      
+     
+    }
+    .card-left {
+      background:#ffffff;
+     
+    }
+    /* footer styling */
+   #footer{
+    width: 100%;
+    margin-top: 300%;
+   }
+ 
+
+    .footer-inside #center span{
+     color:rgba(128, 128, 128, 0.578);
+   display: block;
+   line-height: 1.3;
+   margin-left: 40%;
+   
+    width:100%;
+
+    }
+    .footer-inside #center hr{
+     color:rgba(128, 128, 128, 0.578);
+     display: block;
+   
+    margin-left: 220px;
+    width: 300px;
+   
+    }
+  
+    }
+        
+    /* Medium devices (landscape tablets, 768px and up) */
+    @media only screen and (min-width: 768px) and (max-width:820px ){
+      *{margin: 0;
+    padding: 0;}
+
+    #gallery >*{
+      padding: 0;
+      margin: 0;
+    }
+    section{
+      width: 90%;
+    }
+    img{
+      width:100%;
+      
+      max-width:100%;
+    }
+/* banner section styling */
+    .banner{
+      width: 734px;
+height: 398px;
+      background: #161616;
+      border-radius: 30px;
+      margin: 0 auto;
+    }
+    .banner-inside{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+     
+     
+     
+     
+    }
+    .banner-inside >#text-div{
+      padding-left: 25px;
+     
+     
+     
+     
+    }
+    .banner-inside  >#text-div> h1{
+      font-size: 40px;
+font-weight: 700;
+line-height: 50px;
+
+text-align: left;
+    }
+    .banner-inside p{
+     
+      font-family: Poppins;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+
+text-align: left;
+
+  
+     
+    }
+    
+    .banner-inside #btn{
+      width: 161px;
+height: 48px;
+left: 126px;
+top: 339px;
+
+font-weight: 400;
+font-size: 20px;
+line-height: 23px;
+text-align: center;
+
+color: #FFFFFF;
+
+background: #DD0000;
+border-radius: 5px;
+              
+    }
+    .banner-inside #image-div{
+     max-width: 100%;
+    
+    }
+    #image-div img{
+     width: 100%;
+     max-width: 614px;
+    }
+    /* styling gallery section      */
+
+    #gallery {
+     width:100%;
+      margin: 0 auto;
+     max-width: 734px;
+   
+     
+    }
+    .cards {
+      display: flex;
+      flex-direction: column;
+    }
+    .card {
+      width: 310px;
+      max-width: 100%;
+      padding: 1px;
+
+      border-radius: 10px;
+    }
+
+    .card-left {
+      background:none;
+      padding: 10px;
+
+      border-radius: 10px;
+      height: 100px;
+      max-width:715px ;
+      width: 100%;
+    }
+    .card-left .left-flex{
+      width: 100%;
+      display: flex;
+     flex-direction: row;
+     padding-top: 10%;
+   
+     
+     
+      
+      
+      margin-top: 25px;
+      
+      margin: -40px auto;
+      gap:5px;
+    }
+    .card-left .left-flex .height{
+     height:64px;
+     border:none;
+     outline:none;
+     border-radius: 8px;
+     width: 230px;
+    }
+    .card-left .left-flex #blog-style{
+     background:#dd0000;
+    }
+    
+    .right-card-width {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .card-right {
+      max-width: 100%;
+    }
+    .card-right > #btn {
+      background: transparent;
+      margin-left: 40%;
+      border: none;
+      outline: none;
+    }
+    .inline-block {
+      display: inline-block;
+      margin: 10px;
+    }
+    .block {
+      color: green;
+      position: relative;
+      top: -8.5px;
+      left: 20px;
+      margin-right: 50px;
+    }
+    /* styling card border */
+    .border-img{
+      border:1px solid grey;
+      border-radius: 12px;
+    }
+   .icon-img{
+    max-width: 20px;
+   }
+    /* styling footer */
+   #footer{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 35%;
+   }
+    .footer{
+        width: 100%;
+height: 345px;
+      
+    }
+    .footer-inside{
+     
+     
+      max-width:100%;
+      height: 441px;
+      background: #161616;
+      
+    }
+   
+    .footer-inside{
+     
+     
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+      
+    }
+   
+
+    
+    .footer-inside p{
+      font-size:40px ;
+      color:#ffffff;
+     
+     
+      
+    }
+    .footer-inside #center{
+      width:80%;
+      height:300px;
+      
+      display: flex;
+      flex-direction: column;
+      /* justify-content: center;
+      align-items: center; */
+      
+     
+    }
+    .footer-inside #center #span{
+    color:darkgrey;
+    
+     
+    }
+    .footer-inside #center hr{
+        color: rgba(128, 128, 128, 0.176);
+    display: block;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    position: relative;
+    left: 0;
+    margin-top: 10%;
+    margin-bottom: 5%;
+   }
+    }
+    /* Large devices (laptops/desktops, 992px and up) */
+    @media only screen and (min-width: 992px) {
+    
+      .card-right {
+        margin-left: 19px;
+      }
+      .icon-img{
+       
+       max-width:20px;
+      }
+    }
+    /* Extra large devices (large laptops and desktops, 1200px and up) */
+    @media only screen and (min-width: 1200px) {
+    }
+  </style>
+
+  <body>
+    
+      <section class="banner">
+        <div class="banner-inside">
+        <div style="width:50%" id="text-div">
+          <h1>The Greatest<br> show on the <br>earth </h1>
+          
+          <p>
+            Brazil - Argentina Live - World Cup Qualification CONMEBOL
+          </p>
+          <button id="btn">Watch live <i class="fa-solid fa-angle-right"></i></button>
+        </div>
+
+        <div style="width:50%" id="image-div">
+          <img src="./assets/Banner Image.png" alt="" >
+        </div>
+      </div>
+    </section>
+    <section id="gallery">
+      <div class="gallery">
+        <div class="cards">
+          <div class="card card-left">
+            <div class="left-flex">
+           
+            <button class="height">Upcoming Match</button>
+            <button class="height">All Group</button>
+            <button class="height " id="blog-style">Blog</button>
+            </div>
+        </div>
+          <div class="right-card-width">
+            <div class="card card-right">
+              <div class="border-img">
+              <img src="./assets/Blog Image.png" alt="" />
+              <button id="btn">transfer</button>
+              <p>Transfer Live: Chlesea in talks over Kimpenbe transfer</p>
+              <img src="./assets/Time Icon.png" alt="" class="icon-img"/>
+              
+                <span class="block"
+                >10h</span
+              >
+              <img src="./assets/Chat Icon.png" alt="" class=" icon-img"/> 
+              <span
+                ><span class="block">23</span></span
+              >
+            </div>
+            </div>
+           
+            <div class="card card-right">
+              <div class="border-img">
+              
+              
+              <img src="./assets/Blog Image.png" alt="" />
+              <button id="btn">transfer</button>
+              <p>Transfer Live: Chlesea in talks over Kimpenbe transfer</p>
+              <img src="./assets/Time Icon.png" alt="" class="icon-img"/>
+              
+                <span class="block"
+                >10h</span
+              >
+              <img src="./assets/Chat Icon.png" alt="" class=" icon-img"/> 
+              <span
+                ><span class="block">23</span></span
+              >
+            </div>
+            </div>
+           
+            <div class="card card-right">
+              <div class="border-img">
+              <img src="./assets/Blog Image.png" alt="" />
+              <button id="btn">transfer</button>
+              <p>Transfer Live: Chlesea in talks over Kimpenbe transfer</p>
+              <img src="./assets/Time Icon.png" alt="" class="icon-img"/><span class="block"
+                >10h</span
+              ><img src="./assets/Chat Icon.png" alt="" class=" icon-img"/><span
+                ><span class="block">23</span></span
+              >
+            </div>
+            </div>
+            <div class="card card-right">
+              <div class="border-img">
+              <img src="./assets/Blog Image.png" alt="" />
+              <button id="btn">transfer</button>
+              <p>Transfer Live: Chlesea in talks over Kimpenbe transfer</p>
+              <img src="./assets/Time Icon.png" alt="" class="icon-img"/><span class="block"
+                >10h</span
+              ><img src="./assets/Chat Icon.png" alt="" class=" icon-img"/><span
+                ><span class="block">23</span></span
+              >
+            </div>
+            </div>
+            <div class="card card-right">
+              <div class="border-img">
+              <img src="./assets/Blog Image.png" alt="" />
+              <button id="btn">transfer</button>
+              <p>Transfer Live: Chlesea in talks over Kimpenbe transfer</p>
+              <img src="./assets/Time Icon.png" alt="" class="icon-img"/><span class="block"
+                >10h</span
+              ><img src="./assets/Chat Icon.png" alt="" class=" icon-img"/><span
+                ><span class="block">23</span></span
+              >
+            </div>
+            </div>
+           
+            <div class="card card-right">
+              <div class="border-img">
+              <img src="./assets/Blog Image.png" alt="" />
+              <button id="btn">transfer</button>
+              <p>Transfer Live: Chlesea in talks over Kimpenbe transfer</p>
+              <img src="./assets/Time Icon.png" alt="" class="icon-img"/><span class="block"
+                >10h</span
+              ><img src="./assets/Chat Icon.png" alt="" class=" icon-img"/><span
+                ><span class="block">23</span></span
+              > 
+            </div>
+            </div>
+           
+           
+           
+           
+       
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="footer">
+        <section class="footer">
+            <div class="footer-inside">
+              <div id="center">
+                <p>Goal</p>
+                <div class="center">
+                 <hr>
+                 <div id="span">
+                 <span>Contact Us  </span><span>Terms of Service </span>         <span> Privacy Policy </span><span> Privacy Settings</span>  <span>  Goal</span>   <span> App  </span> 
+                                        <span>Goal Live</span>  
+                                    </div>
+                 </div>  
+                </div>
+    
+              </div>
+            </div>
+          </section>
+    </section>
+  </body>
+</html>
